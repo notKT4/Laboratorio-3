@@ -11,23 +11,23 @@ habitantes2=828708
 habitantes=habitantes1,habitantes2
 
 dict={
-    8:[region,superficie,habitantes],
-    10:[region1,superficie1,habitantes1]
+    8:[region,superficie1,habitantes1],
+    10:[region1,superficie2,habitantes2]
 }
 print(dict)
 
 #densidad= round(habitantes/superficie)
 
-capitalbio=["concepcion"]
-capitallag=["puerto montt"]
+dict[8]=capitalbio=["concepcion"]
+dict[10]=capitallag=["puerto montt"]
 capital=capitalbio,capitallag
 
-comunasbio=["lota","lebu","los angeles"]
-comunaslag=["castro","puerto varas","purranque"]
+dict[8]=comunasbio=["lota","lebu","los angeles"]
+dict[10]= comunaslag=["castro","puerto varas","purranque"]
 comunas=comunasbio,comunaslag
 
-provinciasbio=("bio-bio","arauco","concepcion")
-provinciaslag=("osorno","llanquihue","chiloé","palena")
+dict[8]=provinciasbio=("bio-bio","arauco","concepcion")
+dict[10]=provinciaslag=("osorno","llanquihue","chiloé","palena")
 provincias=provinciasbio,provinciaslag
 
 #print(f"Nuevo diccionario: {dict}")
